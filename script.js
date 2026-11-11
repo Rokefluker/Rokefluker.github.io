@@ -8,7 +8,7 @@
                  (shows phone + WhatsApp cards)
    Prázdná hodnota = daná funkce se nezobrazí / empty = feature hidden.
 ------------------------------------------------------------ */
-const CONFIG = { formEndpoint: "", email: "", phone: "" };
+const CONFIG = { formEndpoint: "", email: "impulsdigita@gmail.com", phone: "" };
 
 (function () {
   "use strict";
