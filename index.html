@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<!-- BRAND: Webdílna — změnit všude hledáním "Webdílna" -->
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Webdílna — tvorba webů pro firmy | Humpolec, Vysočina</title>
+  <meta name="description" content="Originální weby na míru pro malé firmy z Humpolce a Vysočiny. Rychlé, přehledné na mobilu, s pevnou cenou předem. Hotovo obvykle do 7 dní.">
+  <meta name="theme-color" content="#FAF6EF">
+  <meta property="og:title" content="Webdílna — tvorba webů pro firmy | Humpolec, Vysočina">
+  <meta property="og:description" content="Originální weby na míru pro malé firmy z Humpolce a Vysočiny. Pevná cena předem, hotovo obvykle do 7 dní.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="cs_CZ">
+  <meta property="og:site_name" content="Webdílna">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&family=Space+Grotesk:wght@600;700&subset=latin-ext&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Webdílna",
+    "description": "Tvorba originálních webů na míru pro malé firmy.",
+    "areaServed": [
+      {"@type": "City", "name": "Humpolec"},
+      {"@type": "City", "name": "Pelhřimov"},
+      {"@type": "City", "name": "Havlíčkův Brod"},
+      {"@type": "City", "name": "Jihlava"}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- Icon sprite (Lucide-style strokes) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-7-7 7 7-7 7"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+      <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+      <symbol id="i-chev" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></symbol>
+      <symbol id="i-chat" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/><path d="M8 12h.01M12 12h.01M16 12h.01"/></symbol>
+      <symbol id="i-layout" viewBox="0 0 24 24"><rect width="18" height="7" x="3" y="3" rx="1"/><rect width="9" height="7" x="3" y="14" rx="1"/><rect width="5" height="7" x="16" y="14" rx="1"/></symbol>
+      <symbol id="i-phone-ui" viewBox="0 0 24 24"><rect width="14" height="20" x="5" y="2" rx="2"/><path d="M12 18h.01"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+      <symbol id="i-zap" viewBox="0 0 24 24"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></symbol>
+      <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+    </defs>
+  </svg>
+
+  <a class="skip-link" href="#obsah">Přeskočit na obsah</a>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="wrap header-in">
+      <a class="logo" href="#top" aria-label="Webdílna — úvodní strana">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#C2410C"/><rect x="5" y="7" width="22" height="18" rx="3" fill="none" stroke="#FAF6EF" stroke-width="2.4"/><path d="M5 12.5h22" stroke="#FAF6EF" stroke-width="2.4"/><path d="m13 16.5-2.5 2.5 2.5 2.5m6-5 2.5 2.5-2.5 2.5" fill="none" stroke="#FAF6EF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Webdílna</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Otevřít menu">
+        <svg class="icon i-open" aria-hidden="true"><use href="#i-menu"/></svg>
+        <svg class="icon i-close" aria-hidden="true"><use href="#i-x"/></svg>
+      </button>
+      <nav class="nav" id="nav" aria-label="Hlavní navigace">
+        <ul class="nav-list">
+          <li><a href="#proc">Proč web</a></li>
+          <li><a href="#co">Co dostanete</a></li>
+          <li><a href="#ukazky">Ukázky</a></li>
+          <li><a href="#cenik">Ceník</a></li>
+          <li><a href="#postup">Postup</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+          <li><a class="btn btn-primary btn-sm" href="#kontakt">Chci web</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="obsah">
+    <!-- HERO -->
+    <section class="hero" id="top" aria-labelledby="hero-h">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="hero-tag">Tvorba webů · Humpolec a Vysočina</span>
+          <h1 id="hero-h">Weby, které přivedou <em>zákazníky</em> i do malé firmy.</h1>
+          <p class="lead">Navrhnu a postavím vám originální web na míru — žádná šablona. Rychlý, přehledný na mobilu a s jasným kontaktem. Hotovo obvykle do 7 dní.</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#kontakt">Chci nezávaznou nabídku <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn-outline" href="#ukazky">Podívat se na ukázky</a>
+          </div>
+          <ul class="trust" aria-label="Naše přednosti">
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Každý web originální</li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Pevná cena předem</li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Osobně, bez agentury</li>
+          </ul>
+        </div>
+        <div class="hero-art">
+          <svg viewBox="0 0 480 440" role="img" aria-label="Ilustrace webu v okně prohlížeče a na mobilu">
+            <!-- browser -->
+            <rect x="8" y="28" width="360" height="270" rx="14" fill="#fff" stroke="#1C1917" stroke-width="2.5"/>
+            <rect x="8" y="28" width="360" height="40" rx="14" fill="#E7E0D4" stroke="#1C1917" stroke-width="2.5"/>
+            <rect x="8" y="50" width="360" height="18" fill="#E7E0D4"/>
+            <path d="M8 68h360" stroke="#1C1917" stroke-width="2.5"/>
+            <circle cx="30" cy="48" r="5" fill="#C2410C"/><circle cx="48" cy="48" r="5" fill="#14532D"/><circle cx="66" cy="48" r="5" fill="#1C1917"/>
+            <rect x="96" y="40" width="200" height="16" rx="8" fill="#fff" stroke="#1C1917" stroke-width="1.5"/>
+            <rect x="30" y="90" width="150" height="16" rx="4" fill="#1C1917"/>
+            <rect x="30" y="114" width="110" height="16" rx="4" fill="#1C1917"/>
+            <rect x="30" y="144" width="170" height="8" rx="4" fill="#D6D3D1"/>
+            <rect x="30" y="160" width="140" height="8" rx="4" fill="#D6D3D1"/>
+            <rect x="30" y="184" width="86" height="28" rx="6" fill="#C2410C" stroke="#1C1917" stroke-width="2"/>
+            <rect x="220" y="90" width="126" height="122" rx="10" fill="#DCE8DF" stroke="#1C1917" stroke-width="2"/>
+            <circle cx="283" cy="140" r="24" fill="#14532D"/>
+            <path d="M232 202c14-22 28-22 40-8s22 12 38-6l26 14" fill="none" stroke="#1C1917" stroke-width="2"/>
+            <rect x="30" y="232" width="98" height="46" rx="8" fill="#FAF6EF" stroke="#1C1917" stroke-width="2"/>
+            <rect x="140" y="232" width="98" height="46" rx="8" fill="#FAF6EF" stroke="#1C1917" stroke-width="2"/>
+            <rect x="250" y="232" width="98" height="46" rx="8" fill="#FAF6EF" stroke="#1C1917" stroke-width="2"/>
+            <!-- phone -->
+            <rect x="318" y="150" width="140" height="272" rx="22" fill="#1C1917" transform="translate(6 6)"/>
+            <rect x="318" y="150" width="140" height="272" rx="22" fill="#FAF6EF" stroke="#1C1917" stroke-width="2.5"/>
+            <rect x="366" y="160" width="44" height="7" rx="3.5" fill="#1C1917"/>
+            <rect x="334" y="186" width="108" height="64" rx="8" fill="#14532D"/>
+            <path d="M334 236l30-22 24 16 22-14 32 20v14a8 8 0 0 1-8 8H342a8 8 0 0 1-8-8z" fill="#DCE8DF" opacity=".5"/>
+            <rect x="334" y="262" width="80" height="10" rx="5" fill="#1C1917"/>
+            <rect x="334" y="280" width="108" height="6" rx="3" fill="#D6D3D1"/>
+            <rect x="334" y="292" width="90" height="6" rx="3" fill="#D6D3D1"/>
+            <rect x="334" y="314" width="108" height="34" rx="8" fill="#C2410C" stroke="#1C1917" stroke-width="2"/>
+            <rect x="360" y="327" width="56" height="8" rx="4" fill="#fff"/>
+            <rect x="334" y="358" width="50" height="46" rx="8" fill="#fff" stroke="#1C1917" stroke-width="1.5"/>
+            <rect x="392" y="358" width="50" height="46" rx="8" fill="#fff" stroke="#1C1917" stroke-width="1.5"/>
+            <!-- drafting marks -->
+            <path d="M8 330v20m0-10h120m0-10v20" stroke="#57534E" stroke-width="1.5" fill="none"/>
+            <text x="20" y="372" font-family="Space Grotesk, sans-serif" font-size="14" fill="#57534E">na míru</text>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- 01 PROČ WEB -->
+    <section class="section" id="proc" aria-labelledby="proc-h">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="label">01 — Proč web</span>
+          <h2 id="proc-h">Zákazníci vás hledají na mobilu. Najdou vás?</h2>
+        </div>
+        <div class="cards-3">
+          <article class="card reveal">
+            <div class="ico-box"><svg class="icon" aria-hidden="true"><use href="#i-search"/></svg></div>
+            <h3>Najdou vás na Googlu</h3>
+            <p>Web spolu s mapami na Googlu ukáže lidem otevírací dobu, ceny i kontakt dřív, než k vám vůbec dorazí.</p>
+          </article>
+          <article class="card reveal">
+            <div class="ico-box"><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg></div>
+            <h3>Působíte důvěryhodně</h3>
+            <p>Vlastní web ukazuje, že za firmou stojí pořádná práce. Zákazník vám věří dřív, než se ozve.</p>
+          </article>
+          <article class="card reveal">
+            <div class="ico-box"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg></div>
+            <h3>Méně telefonátů s dotazy</h3>
+            <p>Ceny, služby a časté otázky jsou na jednom místě. Vám zazvoní telefon kvůli skutečným objednávkám.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 CO DOSTANETE -->
+    <section class="section band" id="co" aria-labelledby="co-h">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="label">02 — Co dostanete</span>
+          <h2 id="co-h">Vše, co malý firemní web potřebuje</h2>
+        </div>
+        <ul class="feat-grid">
+          <li class="feat reveal"><svg class="icon" aria-hidden="true"><use href="#i-layout"/></svg><h3>Design na míru vaší firmě</h3></li>
+          <li class="feat reveal"><svg class="icon" aria-hidden="true"><use href="#i-phone-ui"/></svg><h3>Perfektní na mobilu</h3></li>
+          <li class="feat reveal"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><h3>Tlačítko zavolat a navigace</h3></li>
+          <li class="feat reveal"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><h3>Základní SEO a Google mapy</h3></li>
+          <li class="feat reveal"><svg class="icon" aria-hidden="true"><use href="#i-zap"/></svg><h3>Rychlé načítání</h3></li>
+          <li class="feat reveal"><svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg><h3>Pomoc s doménou a hostingem</h3></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 03 UKÁZKY -->
+    <section class="section" id="ukazky" aria-labelledby="uk-h">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="label">03 — Ukázky</span>
+          <h2 id="uk-h">Ukázky práce</h2>
+          <p class="lead">Právě připravuji první ukázkové weby pro firmy z Humpolce a okolí. Brzy je tu najdete.</p>
+        </div>
+        <!--
+          JAK PŘIDAT SKUTEČNÝ PROJEKT: zkopírujte tento blok a nahraďte jím jednu z karet níže
+          (odstraňte i <span class="badge">Připravuji</span>).
+
+          <a class="project reveal" href="https://adresa-webu.cz" target="_blank" rel="noopener">
+            <div class="thumb"><img src="img/nazev-projektu.webp" width="400" height="260" loading="lazy" alt="Náhled webu Název firmy"></div>
+            <div class="proj-body">
+              <span class="tag">Kadeřnictví</span>
+              <h3>Název firmy</h3>
+            </div>
+          </a>
+        -->
+        <div class="proj-grid">
+          <article class="project reveal">
+            <div class="thumb">
+              <svg viewBox="0 0 400 260" role="img" aria-label="Abstraktní náhled webu kadeřnictví">
+                <rect width="400" height="260" fill="#1C1917"/>
+                <g stroke="#C2410C" stroke-width="10"><path d="M300-10l-80 120M340-10l-80 120M380-10l-80 120"/></g>
+                <rect x="30" y="36" width="170" height="16" rx="4" fill="#FAF6EF"/>
+                <rect x="30" y="62" width="120" height="16" rx="4" fill="#FAF6EF"/>
+                <rect x="30" y="96" width="150" height="7" rx="3.5" fill="#78716C"/>
+                <rect x="30" y="112" width="110" height="7" rx="3.5" fill="#78716C"/>
+                <rect x="30" y="138" width="90" height="28" rx="6" fill="#C2410C"/>
+                <rect x="30" y="190" width="100" height="50" rx="8" fill="#292524" stroke="#57534E"/>
+                <rect x="145" y="190" width="100" height="50" rx="8" fill="#292524" stroke="#57534E"/>
+                <rect x="260" y="190" width="100" height="50" rx="8" fill="#292524" stroke="#57534E"/>
+              </svg>
+              <span class="badge">Připravuji</span>
+            </div>
+            <div class="proj-body"><span class="tag">Služby</span><h3>Kadeřnictví / barbershop</h3></div>
+          </article>
+          <article class="project reveal">
+            <div class="thumb">
+              <svg viewBox="0 0 400 260" role="img" aria-label="Abstraktní náhled webu restaurace">
+                <rect width="400" height="260" fill="#FDE9D2"/>
+                <circle cx="290" cy="100" r="78" fill="#fff" stroke="#9A3412" stroke-width="3"/>
+                <circle cx="290" cy="100" r="50" fill="#FDBA74" stroke="#9A3412" stroke-width="3"/>
+                <circle cx="272" cy="92" r="10" fill="#14532D"/><circle cx="304" cy="112" r="12" fill="#C2410C"/><circle cx="298" cy="82" r="7" fill="#14532D"/>
+                <rect x="30" y="40" width="150" height="16" rx="4" fill="#7C2D12"/>
+                <rect x="30" y="66" width="100" height="16" rx="4" fill="#7C2D12"/>
+                <rect x="30" y="100" width="130" height="7" rx="3.5" fill="#B45309" opacity=".6"/>
+                <rect x="30" y="116" width="100" height="7" rx="3.5" fill="#B45309" opacity=".6"/>
+                <rect x="30" y="148" width="100" height="28" rx="6" fill="#14532D"/>
+                <path d="M0 210h400v50H0z" fill="#7C2D12"/>
+                <rect x="30" y="226" width="80" height="8" rx="4" fill="#FDE9D2"/><rect x="150" y="226" width="80" height="8" rx="4" fill="#FDE9D2"/><rect x="270" y="226" width="80" height="8" rx="4" fill="#FDE9D2"/>
+              </svg>
+              <span class="badge">Připravuji</span>
+            </div>
+            <div class="proj-body"><span class="tag">Gastro</span><h3>Restaurace / kavárna</h3></div>
+          </article>
+          <article class="project reveal">
+            <div class="thumb">
+              <svg viewBox="0 0 400 260" role="img" aria-label="Abstraktní náhled webu řemeslníka">
+                <rect width="400" height="260" fill="#E0ECF4"/>
+                <path d="M0 190l90-60 70 40 90-70 150 90v70H0z" fill="#1E3A5F"/>
+                <rect x="250" y="30" width="110" height="44" rx="8" fill="#FACC15" stroke="#1C1917" stroke-width="2.5"/>
+                <path d="M270 52h70" stroke="#1C1917" stroke-width="3"/>
+                <rect x="30" y="36" width="160" height="16" rx="4" fill="#1E3A5F"/>
+                <rect x="30" y="62" width="110" height="16" rx="4" fill="#1E3A5F"/>
+                <rect x="30" y="96" width="140" height="7" rx="3.5" fill="#64748B"/>
+                <rect x="30" y="112" width="100" height="7" rx="3.5" fill="#64748B"/>
+                <rect x="30" y="138" width="100" height="28" rx="6" fill="#FACC15" stroke="#1C1917" stroke-width="2"/>
+                <rect x="30" y="206" width="100" height="34" rx="8" fill="#fff" opacity=".9"/>
+                <rect x="145" y="206" width="100" height="34" rx="8" fill="#fff" opacity=".9"/>
+                <rect x="260" y="206" width="100" height="34" rx="8" fill="#fff" opacity=".9"/>
+              </svg>
+              <span class="badge">Připravuji</span>
+            </div>
+            <div class="proj-body"><span class="tag">Řemeslo</span><h3>Řemeslník / služby</h3></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 CENÍK -->
+    <section class="section section-flush" id="cenik" aria-labelledby="cen-h">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="label">04 — Ceník</span>
+          <h2 id="cen-h">Férové ceny, jasně předem</h2>
+        </div>
+        <div class="price-grid">
+          <article class="price reveal">
+            <h3>Vizitka</h3>
+            <p class="amount"><small>od</small> 6 000 Kč</p>
+            <ul>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Jednostránkový web</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Kontakt a mapa</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Mobilní verze</li>
+            </ul>
+          </article>
+          <article class="price featured reveal">
+            <span class="ribbon">Nejčastější volba</span>
+            <h3>Firemní web</h3>
+            <p class="amount"><small>od</small> 12 000 Kč</p>
+            <ul>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Až 5 stránek nebo sekcí</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Galerie</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Ceník služeb</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Základ SEO</li>
+            </ul>
+          </article>
+          <article class="price reveal">
+            <h3>Správa webu</h3>
+            <p class="amount"><small>od</small> 400 Kč <small>/ měsíc</small></p>
+            <ul>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Drobné úpravy</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Aktualizace cen a fotek</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>Hlídání funkčnosti</li>
+            </ul>
+          </article>
+        </div>
+        <p class="price-note reveal">Platba 50 % předem, 50 % po spuštění. Ceny jsou konečné, bez skrytých poplatků.</p>
+      </div>
+    </section>
+
+    <!-- 05 POSTUP -->
+    <section class="section band" id="postup" aria-labelledby="po-h">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="label">05 — Jak to probíhá</span>
+          <h2 id="po-h">Čtyři jednoduché kroky</h2>
+        </div>
+        <ol class="steps">
+          <li class="step reveal"><div class="step-num">1</div><h3>Krátký hovor</h3><p>Zjistím, co potřebujete.</p></li>
+          <li class="step reveal"><div class="step-num">2</div><h3>Návrh</h3><p>Ukážu vám první verzi webu.</p></li>
+          <li class="step reveal"><div class="step-num">3</div><h3>Úpravy</h3><p>Doladíme texty, fotky a barvy.</p></li>
+          <li class="step reveal"><div class="step-num">4</div><h3>Spuštění</h3><p>Web je online, pomůžu s doménou.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq" aria-labelledby="faq-h">
+      <div class="wrap faq-wrap">
+        <div class="section-head reveal">
+          <h2 id="faq-h">Časté otázky</h2>
+        </div>
+        <details class="reveal">
+          <summary>Co když ještě nemám doménu? <svg class="icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+          <p>Nevadí. Pomohu vám vybrat vhodnou adresu, doménu zaregistrovat a nastavit hosting. Doména zůstává vaše.</p>
+        </details>
+        <details class="reveal">
+          <summary>Kdo bude web upravovat? <svg class="icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+          <p>Drobné změny, jako nové ceny, fotky nebo otevírací dobu, vám rád upravím v rámci správy webu. Stačí napsat.</p>
+        </details>
+        <details class="reveal">
+          <summary>Potřebuji vlastní fotky? <svg class="icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+          <p>Vlastní fotky jsou nejlepší, třeba i z telefonu. Když žádné nemáte, poradím, co nafotit, nebo najdu vhodné náhrady.</p>
+        </details>
+        <details class="reveal">
+          <summary>Jak dlouho to trvá? <svg class="icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+          <p>Jednoduchý web bývá hotový obvykle do 7 dní od chvíle, kdy mám od vás texty a fotky. Větší web zabere o něco déle.</p>
+        </details>
+        <details class="reveal">
+          <summary>Bude web fungovat i na mobilu? <svg class="icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+          <p>Ano. Každý web navrhuji nejdřív pro mobil a pak ho přizpůsobuji tabletu a počítači. Vždy ho vyzkouším na skutečných zařízeních.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- 06 KONTAKT -->
+    <section class="section band" id="kontakt" aria-labelledby="ko-h">
+      <div class="wrap contact-grid">
+        <div class="reveal">
+          <span class="label">06 — Kontakt</span>
+          <h2 id="ko-h">Pojďme to probrat</h2>
+          <p class="lead">Napište mi pár slov o vaší firmě. Ozvu se do 24 hodin s nezávazným návrhem.</p>
+          <!-- Naplní se z CONFIG v script.js; bez nastavení zůstává skryté -->
+          <div class="contact-cards" id="contact-cards" hidden></div>
+        </div>
+        <form id="contact-form" class="reveal" novalidate aria-label="Poptávkový formulář">
+          <div class="field">
+            <label for="f-name">Jméno</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="e-name">
+            <p class="err" id="e-name">Napište prosím své jméno.</p>
+          </div>
+          <div class="field">
+            <label for="f-firm">Firma <span class="opt">(nepovinné)</span></label>
+            <input id="f-firm" name="company" type="text" autocomplete="organization">
+          </div>
+          <div class="field">
+            <label for="f-contact">E-mail nebo telefon</label>
+            <input id="f-contact" name="contact" type="text" autocomplete="email" required aria-describedby="e-contact">
+            <p class="err" id="e-contact">Zadejte prosím platný e-mail nebo telefonní číslo.</p>
+          </div>
+          <div class="field">
+            <label for="f-msg">Zpráva</label>
+            <textarea id="f-msg" name="message" required aria-describedby="e-msg"></textarea>
+            <p class="err" id="e-msg">Napište prosím pár slov o své firmě.</p>
+          </div>
+          <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="btn btn-primary" type="submit">Odeslat poptávku <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          <div class="status" id="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="wrap foot-in">
+      <div>
+        <a class="logo" href="#top" aria-label="Webdílna — nahoru">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#C2410C"/><rect x="5" y="7" width="22" height="18" rx="3" fill="none" stroke="#FAF6EF" stroke-width="2.4"/><path d="M5 12.5h22" stroke="#FAF6EF" stroke-width="2.4"/><path d="m13 16.5-2.5 2.5 2.5 2.5m6-5 2.5 2.5-2.5 2.5" fill="none" stroke="#FAF6EF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Webdílna</span>
+        </a>
+        <p>Tvorba webů pro malé firmy · Humpolec, Vysočina</p>
+      </div>
+      <nav class="foot-nav" aria-label="Patička">
+        <a href="#proc">Proč web</a><a href="#co">Co dostanete</a><a href="#ukazky">Ukázky</a><a href="#cenik">Ceník</a><a href="#postup">Postup</a><a href="#kontakt">Kontakt</a>
+      </nav>
+      <p class="copy">© <span id="year">2026</span> Webdílna. Všechna práva vyhrazena.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
