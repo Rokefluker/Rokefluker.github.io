@@ -1,5 +1,5 @@
 /* ==========================================================
-   Webdílna — styles.css
+   Impuls Digita — styles.css
    Sections: 0 Tokens · 1 Base · 2 Layout · 3 Buttons · 4 Header
    5 Hero · 6 Why · 7 Features · 8 Projects · 9 Pricing · 10 Steps
    11 FAQ · 12 Contact · 13 Footer · 14 Reveal · 15 Responsive
@@ -249,3 +249,12 @@ input:focus-visible, textarea:focus-visible { outline: 3px solid var(--accent); 
 .band .step p { color: var(--forest-soft); }
 .band .step:not(:last-child)::after { border-color: var(--forest-soft); }
 .contact-cards a, form { color: var(--ink); }
+
+/* ---------- Project link cards ---------- */
+.project-link { display: block; color: inherit; text-decoration: none; height: 100%; }
+.project-link:hover h3, .project-link:focus-visible h3 { color: var(--accent); }
+.project-link .thumb img { object-position: top center; transition: transform .4s ease; }
+.project-link:hover .thumb img { transform: scale(1.03); }
+.thumb { overflow: hidden; }
+.proj-note { margin: 6px 0 0; color: var(--ink-muted); font-size: .95rem; }
+@media (prefers-reduced-motion: reduce) { .project-link .thumb img { transition: none; } .project-link:hover .thumb img { transform: none; } }
